@@ -16,8 +16,8 @@ local LoopFlingV2 = {}
 local ts = game:GetService'TweenService'
 
 local function onChat(message)
-    if message == "Dani Gui" then
-        -- my guiV2 --
+    if message == "Open Dani Gui" then
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local window = OrionLib:MakeWindow({Name = "Dani Gui", IntroText = "Loading.. Dani Gui", IntroIcon = "rbxassetid://4483345998", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
